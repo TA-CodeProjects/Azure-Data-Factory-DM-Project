@@ -1,0 +1,9 @@
+source,Columns,sink
+SalesOrderDetail,"SalesOrderID, ProductID,OrderQty,UnitPrice, UnitPriceDiscount",Mrr_SalesOrderDetail
+SalesOrderHeader,"SalesOrderID, CustomerID, OrderDate",Mrr_SalesOrderHeader
+Customer,"CustomerID, FirstName, LastName",Mrr_Customer
+CustomerAddress,"CustomerID, AddressID",Mrr_CustomerAddress
+Address,"AddressID, AddressLine1, City, StateProvince, CountryRegion",Mrr_Address
+Product,"ProductID, Name, ProductCategoryID, ProductModelID",Mrr_Product
+ProductCategory,"ParentProductCategoryID, ProductCategoryID,  Name",Mrr_ProductCategory
+ProductModel,"ProductModelID, Name",Mrr_ProductModel
